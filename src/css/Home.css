@@ -1,0 +1,28 @@
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: rotate(-45deg);
+    margin-top: 50px;
+  }
+  
+  .skill-circle {
+    width: 150px; /* Increase the circle size */
+    height: 150px; /* Increase the circle size */
+    background-color: black; /* Change the circle color to black */
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    transform: rotate(45deg);
+  }
+  
+  .skill-circle p {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+  }
+

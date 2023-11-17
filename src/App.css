@@ -1,0 +1,88 @@
+html, body {
+  background-color: #8cb3d9; /* Light blue background color */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif; /* Set your preferred font */
+}
+.App {
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: flex-start; /* Align items to the top */
+  height: 100vh;
+}
+
+.content {
+  display: flex; /* Display content as a horizontal list */
+  justify-content: center; /* Center content horizontally within the container */
+  align-items: center; /* Center content vertically within the container */
+  margin-top: 20px; /* Add spacing between Header and content */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 0 10px; /* Adjust spacing between list items */
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #333; /* Customize link color */
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  color: #007bff; /* Customize link color on hover */
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

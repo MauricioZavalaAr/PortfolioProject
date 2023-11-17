@@ -1,0 +1,73 @@
+/* Contact.css */
+
+/* Top-level container */
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Add spacing around the entire component */
+  }
+  
+  /* Social links container */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Spacing between social links and heading */
+  }
+  
+  /* Social icon styles */
+  .social-icon {
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+    margin: 0 10px; /* Spacing between social icons */
+  }
+  
+  /* Heading style */
+  .contact-me h2 {
+    color: #333; /* Black color for heading */
+    font-size: 24px;
+    margin-top: 20px; /* Spacing between heading and form */
+  }
+  
+  /* Contact form container */
+  .contact-form {
+    max-width: 400px; /* Limit the width of the form */
+    width: 100%;
+    margin-top: 20px; /* Spacing between heading and form */
+  }
+  
+  /* Input and textarea styles */
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px; /* Add spacing within input and textarea */
+    margin-bottom: 10px; /* Spacing between inputs and textarea */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px;
+  }
+  
+  /* Button style */
+  .contact-form button {
+    background-color: #007bff; /* Blue color for button */
+    color: #fff; /* White color for button text */
+    padding: 10px 20px; /* Add spacing within the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  /* Text color for additional information */
+  .contact-me p {
+    color: #333; /* Black color for text */
+    margin-bottom: 10px; /* Spacing between paragraphs */
+  }
+  
+  /* Gold color for important information */
+  .contact-me p.gold {
+    color: #ffd700;
+  }
